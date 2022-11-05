@@ -31,6 +31,9 @@ const Navigation = () => (
                     <ListItemButton>
                         <ListItemText primary="Contact" />
                     </ListItemButton>
+                    <ListItemButton>
+                        <ListItemText primary="Test" />
+                    </ListItemButton>
                 </ListItem>
             </List>
         </AppBar>
