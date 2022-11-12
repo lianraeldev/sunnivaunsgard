@@ -8,7 +8,7 @@ const Banner = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-5 col-md-12">
                         <div className="main-banner-content">
-                            <h1>Hi, I'M <br /> Sunniva</h1>
+                            <h1>Hi, I'm <br /> Sunniva</h1>
                             <p>An Opera Singer with one of the most beautiful Soprano voice in the world</p>
 
                             <form onSubmit={e => e.preventDefault()}>
