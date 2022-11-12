@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const Navbar = () => {
     const [collapsed, setCollapsed] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
             <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
                     <Link className="navbar-brand" href="/">
-                        <img src="/images/logo.png" alt="logo" />
+                        <Image width={200} height={100} src="/images/logo.png" alt="logo" />
                     </Link>
 
                     <button

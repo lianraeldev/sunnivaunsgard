@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="col-lg-6 col-md-6">
                         <ul>
                             <li>
-                                <a href="https://instagram.com/sunnivaunsgard" target="_blank">
+                                <a href="https://instagram.com/sunnivaunsgard">
                                     <i className='bx bxl-instagram'></i>
                                 </a>
                             </li>
