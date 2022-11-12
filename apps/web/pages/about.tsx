@@ -1,10 +1,10 @@
-import Navigation from "../components/Navigation";
+import React from 'react';
+import About from "@/spaces/about/AboutMe";
 
-export default function Web() {
+const Home = () => {
   return (
-    <div>
-      <Navigation />
-      <h1>About</h1>
-    </div>
+    <About />
   );
 }
+
+export default Home;
