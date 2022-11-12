@@ -548,7 +548,7 @@ Main Banner Area CSS
   width: 100%;
   padding-top: 60px;
   z-index: 1;
-  background-image: url(/images/instagram/dot-bg.png);
+  background-image: url(/images/dot-bg.png);
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2381,7 +2381,7 @@ Subscribe Area CSS
 .subscribe-area {
   position: relative;
   z-index: 1;
-  background-image: url(/images/instagram/subscribe-bg.jpg);
+  background-image: url(/images/subscribe-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2515,11 +2515,7 @@ Page Title Area CSS
 }
 
 .page-banner-area.bg-one {
-  background-image: url(/images/instagram/page-title-bg.jpg);
-}
-
-.page-banner-area.bg-two {
-  background-image: url(/images/youtube/page-title-bg2.jpg);
+  background-image: url(/images/page-title-bg.jpg);
 }
 
 .page-banner-area .back-home a {

@@ -38,7 +38,7 @@ const SomeOfMyProjects = () => {
                 </div>
             </div>
 
-            <div className="shape1"><img src="/images/instagram/insta-shape1.png" alt="image" /></div>
+            <div className="shape1"><img src="/images/home/circle-shape1.png" alt="image" /></div>
         </section >
     );
 }

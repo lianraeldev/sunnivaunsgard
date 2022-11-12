@@ -26,11 +26,11 @@ const Banner = () => {
 
                             <div className="banner-shape">
                                 <ScrollAnimation initiallyVisible={true} animateIn="fadeInLeft" delay={100}>
-                                    <img src="/images/instagram/line-bg1.png" alt="image" />
+                                    <img src="/images/home/line-bg1.png" alt="image" />
                                 </ScrollAnimation>
 
                                 <ScrollAnimation initiallyVisible={true} animateIn="fadeInRight" delay={100}>
-                                    <img src="/images/instagram/line-bg2.png" alt="image" />
+                                    <img src="/images/home/line-bg2.png" alt="image" />
                                 </ScrollAnimation>
                             </div>
                         </div>

@@ -11,8 +11,8 @@ const AboutMe = () => {
                                 <img src="/images/sunniva-about.jpg" className="main-image" alt="image" />
 
                                 <div className="shape">
-                                    <img src="/images/instagram/insta-about-shape1.png" alt="image" />
-                                    <img src="/images/instagram/insta-about-shape2.png" alt="image" />
+                                    <img src="/images/about/shape1.png" alt="image" />
+                                    <img src="/images/about/shape2.png" alt="image" />
                                 </div>
                             </div>
                         </div>
