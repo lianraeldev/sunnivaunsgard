@@ -1,10 +1,14 @@
-import Navigation from "@/components/Navigation";
+import React from 'react';
+import Banner from "@/spaces/home/Banner";
+import SomeOfMyProjects from "@/spaces/home/SomeOfMyProjects";
 
-export default function Web() {
-  return (
-    <div>
-      <Navigation />
-      <h1>Web</h1>
-    </div>
-  );
+const Home = () => {
+    return (
+        <>
+            <Banner />
+            <SomeOfMyProjects />
+        </>
+    );
 }
+
+export default Home;
