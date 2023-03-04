@@ -11,7 +11,7 @@ const Banner = () => {
                             <h1>Hi, I'm <br /> Sunniva</h1>
                             <p>An Opera Singer with a warm soprano voice.</p>
 
-                            <form onSubmit={e => e.preventDefault()}>
+                            <form onSubmit={e => e.preventDefault()} hidden={true}>
                                 <input type="text" className="input-newsletter" placeholder="Enter your email address to get" />
                                 <button type="submit">Next Concerts</button>
                             </form>
@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
