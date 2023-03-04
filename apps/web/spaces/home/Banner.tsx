@@ -9,9 +9,9 @@ const Banner = () => {
                     <div className="col-lg-5 col-md-12">
                         <div className="main-banner-content">
                             <h1>Hi, I'm <br /> Sunniva</h1>
-                            <p>An Opera Singer with one of the most beautiful Soprano voice in the world</p>
+                            <p>An Opera Singer with a warm soprano voice.</p>
 
-                            <form onSubmit={e => e.preventDefault()}>
+                            <form onSubmit={e => e.preventDefault()} hidden={true}>
                                 <input type="text" className="input-newsletter" placeholder="Enter your email address to get" />
                                 <button type="submit">Next Concerts</button>
                             </form>
@@ -37,7 +37,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 
