@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <div className="col-lg-7 col-md-12">
                             <div className="about-content">
                                 <span className="sub-title">About Me</span>
-                                <h2>I'm an Opera Singer and Front-End Developer from Norway based in Berlin.</h2>
+                                <h2>I'm an Opera Singer from Norway based in Berlin.</h2>
 
                                 <p>
                                     I started singing at the age of 9 and despite my young age I would soon sing and act in many different productions in my local community. Completed my Bachelor of music at NTNU in Trondheim with Prof. Kåre Bjørkøy as voice teacher and moved afterwards to Berlin to study for my master’s degree at the Hanns Eisler HfM under Prof. Norma Sharp. I have partaken in many opera and music theater productions and performances through the course of her career.
