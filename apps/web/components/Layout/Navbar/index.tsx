@@ -70,6 +70,15 @@ const Navbar = () => {
                                     About
                                 </Link>
                             </li>
+                            <li className="nav-item">
+                                <Link
+                                    href="/events"
+                                    onClick={onNavigate}
+                                    className={`nav-link ${isActive("/events")}`}
+                                >
+                                    Events
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

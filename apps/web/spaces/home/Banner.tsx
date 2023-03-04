@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className="col-lg-5 col-md-12">
                         <div className="main-banner-content">
                             <h1>Hi, I'm <br /> Sunniva</h1>
-                            <p>An Opera Singer with a warm soprano voice</p>
+                            <p>An Opera Singer with a warm soprano voice.</p>
 
                             <form onSubmit={e => e.preventDefault()}>
                                 <input type="text" className="input-newsletter" placeholder="Enter your email address to get" />
